@@ -37,6 +37,7 @@ import type {
   LongTextEditorOption,
   OperatorDetailAlt,
   Pagination,
+  QuickEditOption,
   ResizeByContentOption,
   RowBasedEditOptions,
   RowDetailView,
@@ -519,6 +520,12 @@ export interface GridOption<C extends Column = Column> {
 
   /** Do we want to enable Tree Data grid? */
   enableTreeData?: boolean;
+
+  /** Defaults to false, enable Excel-like quick edit (edit-on-keypress) interactions. */
+  enableQuickEdit?: boolean;
+
+  /** Configure quick edit behavior (eligible editors, seeding, caret placement, ...). */
+  quickEditOptions?: QuickEditOption;
 
   /** Enable the row based editing plugin */
   enableRowBasedEdit?: boolean;
