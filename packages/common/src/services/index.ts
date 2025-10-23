@@ -14,6 +14,7 @@ export * from './headerGrouping.service.js';
 export * from './observers.js';
 export * from './pagination.service.js';
 export * from './resizer.service.js';
+export * from './quickEdit.service.js';
 export * from './rxjsFacade.js';
 export * from './shared.service.js';
 export * from './sort.service.js';

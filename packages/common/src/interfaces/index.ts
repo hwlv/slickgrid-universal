@@ -77,6 +77,7 @@ export type * from './gridMenuItem.interface.js';
 export type * from './gridMenuLabel.interface.js';
 export type * from './gridMenuOption.interface.js';
 export type * from './gridOption.interface.js';
+export type * from './quickEditOption.interface.js';
 export type * from './gridServiceDeleteOption.interface.js';
 export type * from './gridServiceInsertOption.interface.js';
 export type * from './gridServiceUpdateOption.interface.js';

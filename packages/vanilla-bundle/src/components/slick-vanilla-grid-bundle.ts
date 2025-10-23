@@ -32,6 +32,7 @@ import {
   GridEventService,
   GridService,
   GridStateService,
+  QuickEditService,
   HeaderGroupingService,
   isColumnDateType,
   PaginationService,
@@ -112,6 +113,7 @@ export class SlickVanillaGridBundle<TData = any> {
   gridEventService!: GridEventService;
   gridService!: GridService;
   gridStateService!: GridStateService;
+  quickEditService!: QuickEditService;
   headerGroupingService!: HeaderGroupingService;
   paginationComponent: BasePaginationComponent | undefined;
   paginationService!: PaginationService;
